@@ -13,6 +13,7 @@ v4l2-ctl --list-devices
 ```
 
 ### to test video stream through ffplay 
+```c
 sudo apt install ffmpeg
 ffplay /dev/videox  // x here could be 0,1,2,3 
 ```
